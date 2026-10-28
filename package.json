@@ -21,8 +21,9 @@
     "check-client:cold-red-gate": "node scripts/configure-npm-scope-routing.mjs --check --config content/config/cold-red-gate.yaml",
     "serve:cold-red-gate": "npm run configure-client:cold-red-gate && node scripts/harden-htpasswd-permissions.mjs && verdaccio --config content/config/cold-red-gate.yaml",
     "ping": "node scripts/ping-verdaccio.mjs",
-    "check": "node --check scripts/configure-npm-scope-routing.mjs && node --check scripts/ping-verdaccio.mjs && node --check scripts/harden-htpasswd-permissions.mjs",
-    "test": "node --test test/*.test.mjs"
+    "check": "node --check scripts/configure-npm-scope-routing.mjs && node --check scripts/ping-verdaccio.mjs && node --check scripts/harden-htpasswd-permissions.mjs && node --check src/npmrc-source-projection.mjs && node --check scripts/check-repository-npmrc.mjs",
+    "test": "node --test test/*.test.mjs",
+    "assay:repository-routing": "node scripts/check-repository-npmrc.mjs"
   },
   "dependencies": {
     "@red-cup-engineering/computer-file-engineering-services-section": "0.6.4",
