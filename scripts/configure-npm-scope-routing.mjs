@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Route every estate scope to the local Verdaccio registry, machine-wide.
+// Route declared private estate scopes to the canonical house registry, machine-wide.
 //
 // Why this exists: npm resolves per-project config from the nearest
 // package.json directory only, so the repo root's .npmrc never reaches
@@ -25,6 +25,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { join, dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { houseScopesFromVerdaccio } from "../src/npmrc-source-projection.mjs";
 
 // Canonical registry (registry.561.group on cold-red-gate). The local
 // verdaccio, when present, is only a read-through cache of it — client
@@ -42,9 +43,7 @@ const configPath = configArgumentIndex >= 0
 const npmrcPath = join(homedir(), ".npmrc");
 const checkOnly = process.argv.includes("--check");
 
-const scopes = [
-  ...readFileSync(configPath, "utf8").matchAll(/^\s{2}'(@[^/']+)\/\*'/gm),
-].map((m) => m[1]);
+const scopes = houseScopesFromVerdaccio(readFileSync(configPath, "utf8"));
 if (scopes.length === 0) {
   console.error(`no scopes found in ${configPath} — refusing to proceed`);
   process.exit(2);

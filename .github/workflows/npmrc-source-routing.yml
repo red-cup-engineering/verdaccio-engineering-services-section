@@ -1,0 +1,33 @@
+name: Canonical private-scope npm source receiving
+on:
+  pull_request:
+    paths:
+      - '.npmrc'
+      - 'src/npmrc-source-projection.mjs'
+      - 'scripts/configure-npm-scope-routing.mjs'
+      - 'scripts/check-repository-npmrc.mjs'
+      - 'test/npmrc-*.test.mjs'
+      - 'content/config/**'
+      - '.github/workflows/npmrc-source-routing.yml'
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-routing:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444
+        with:
+          node-version: '24'
+      - name: Validate original source forms without registry access
+        run: |
+          node --check src/npmrc-source-projection.mjs
+          node --check scripts/check-repository-npmrc.mjs
+          node --check scripts/configure-npm-scope-routing.mjs
+          node --test test/registry-config.test.mjs test/npmrc-source-projection.test.mjs test/npmrc-cli.test.mjs
