@@ -30,4 +30,4 @@ jobs:
           node --check src/npmrc-source-projection.mjs
           node --check scripts/check-repository-npmrc.mjs
           node --check scripts/configure-npm-scope-routing.mjs
-          node --test test/*.test.mjs
+          node --test test/registry-config.test.mjs test/npmrc-source-projection.test.mjs test/npmrc-cli.test.mjs
