@@ -20,17 +20,17 @@
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-content-services-section/services/computer-content-addressing-services-section/services/uri-services-section/services/ni-services-section/services/immutable-content-custody-service/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-content-services-section/services/computer-content-addressing-services-section/services/uri-engineering-services-section/services/ni-services-section/services/immutable-content-custody-service/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-services-section/services/json-codec-service/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-engineering-services-section/services/json-codec-service/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-services-section/services/json-schema-engineering-services-section/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-engineering-services-section/services/json-schema-engineering-services-section/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-inference-system-services-section/services/gemini-services-section/services/gemini-notebook-services-section/services/persistent-notebook-enterprise/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-inference-system-services-section/services/gemini-services-section/services/gemini-notebook-engineering-services-section/services/persistent-notebook-enterprise/package-lock.json",
       "class": "cloud-built",
       "indicators": [
         "service-local .npmrc pins registry to us-central1-npm.pkg.dev (five-six-one-group-dev)"
@@ -384,19 +384,19 @@
         "testResult": "node --test: 121 pass, 0 fail"
       },
       {
-        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-content-services-section/services/computer-content-addressing-services-section/services/uri-services-section/services/ni-services-section/services/immutable-content-custody-service/package-lock.json",
+        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-content-services-section/services/computer-content-addressing-services-section/services/uri-engineering-services-section/services/ni-services-section/services/immutable-content-custody-service/package-lock.json",
         "installResult": "added 1 package, and audited 2 packages in 1s; found 0 vulnerabilities",
         "resolvedUrlCheck": "1 resolved to http://127.0.0.1:4873, 0 resolved to pkg.dev (of 1 total)",
         "testResult": "node --test: 4 pass, 0 fail"
       },
       {
-        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-services-section/services/json-codec-service/package-lock.json",
+        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-engineering-services-section/services/json-codec-service/package-lock.json",
         "installResult": "added 7 packages, and audited 8 packages in 2m; found 0 vulnerabilities",
         "resolvedUrlCheck": "7 resolved to http://127.0.0.1:4873, 0 resolved to pkg.dev (of 7 total)",
         "testResult": "node --test: 2 pass, 0 fail"
       },
       {
-        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-services-section/services/json-schema-engineering-services-section/package-lock.json",
+        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-engineering-services-section/services/json-schema-engineering-services-section/package-lock.json",
         "installResult": "added 21 packages, and audited 22 packages in 1m; found 0 vulnerabilities",
         "resolvedUrlCheck": "21 resolved to http://127.0.0.1:4873, 0 resolved to pkg.dev (of 21 total)",
         "testResult": "node --test: 8 pass, 0 fail"
