@@ -32,7 +32,7 @@ packages:
   '@rsc-quiescent/*': *private_packages
   '@turntide-islands/*': *private_packages
   '@union-officer-academy/*': *private_packages
-  'ephemeral-computer-machine-services-section': *private_packages
+  '561-group-ephemeral-computer-machine-services-section': *private_packages
   'persistent-computer-machine-services-section': *private_packages
   '**':
     access: $all

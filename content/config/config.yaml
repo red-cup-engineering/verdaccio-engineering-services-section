@@ -25,7 +25,7 @@ packages:
   '@emsenn/*': *private_packages
   '@lenticule-science/*': *private_packages
   '@red-cup-engineering/*': *private_packages
-  'ephemeral-computer-machine-services-section': *private_packages
+  '561-group-ephemeral-computer-machine-services-section': *private_packages
   'persistent-computer-machine-services-section': *private_packages
   '**':
     access: $all
