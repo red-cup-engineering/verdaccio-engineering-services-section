@@ -214,7 +214,7 @@
       ]
     },
     {
-      "path": "lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/computer-education-services-section/services/artificial-intelligence-education-services-section/services/artificial-intelligence-education-curriculum-services-section/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/public-services-section/services/public-social-services-section/services/public-education-services-section/services/computer-education-services-section/services/artificial-intelligence-education-services-section/services/public-artificial-intelligence-education-curriculum-services-section/package-lock.json",
       "class": "cloud-built",
       "indicators": [
         "service-local .npmrc pins registry to us-central1-npm.pkg.dev (five-six-one-group-dev)"
@@ -255,17 +255,17 @@
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/science-services-section/services/engineering-science-services-section/services/computer-science-services-section/services/artificial-intelligence-science-services-section/services/artificial-intelligence-research-notebook-services/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/science-services-section/services/engineering-science-services-section/services/computer-science-services-section/services/artificial-intelligence-science-services-section/services/artificial-intelligence-research-notebook-science-services-section/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/science-services-section/services/engineering-science-services-section/services/ecological-science-services-section/services/climate-science-services-section/services/climate-research-service/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/science-services-section/services/engineering-science-services-section/services/ecological-science-services-section/services/climate-science-services-section/services/climate-research-science-services-section/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/science-services-section/services/information-science-services-section/services/knowledge-services-section/services/research-services-section/services/relational-orientation-research-desk/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/science-services-section/services/information-science-services-section/services/knowledge-services-section/services/research-services-section/services/relational-orientation-research-desk-science-services-section/package-lock.json",
       "class": "cloud-built",
       "indicators": [
         "service-local .npmrc pins registry to us-central1-npm.pkg.dev (five-six-one-group-dev)"
@@ -289,7 +289,7 @@
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/science-services-section/services/social-science-services-section/services/economics-and-business-science-services-section/services/business-science-services-section/services/business-research-services-section/services/business-research-notebook-services-section/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/science-services-section/services/social-science-services-section/services/economics-and-business-science-services-section/services/business-science-services-section/services/business-research-services-section/services/business-research-notebook-science-services-section/package-lock.json",
       "class": "local-dev",
       "indicators": []
     }
@@ -316,7 +316,7 @@
       "testResult": "node --test: 1 pass, 0 fail"
     },
     {
-      "path": "lib/emsenn/services/561-group/services/science-services-section/services/engineering-science-services-section/services/ecological-science-services-section/services/climate-science-services-section/services/climate-research-service/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/science-services-section/services/engineering-science-services-section/services/ecological-science-services-section/services/climate-science-services-section/services/climate-research-science-services-section/package-lock.json",
       "installResult": "added 91 packages, and audited 92 packages in 36s; 0 vulnerabilities (required rm -rf node_modules alongside lockfile: first pass reused stale node_modules and produced a lockfile with zero resolved/integrity fields)",
       "testResult": "node --test: 3 pass, 0 fail"
     },
@@ -341,7 +341,7 @@
       "testResult": "node --test: 4 pass, 0 fail"
     },
     {
-      "path": "lib/emsenn/services/561-group/services/science-services-section/services/engineering-science-services-section/services/computer-science-services-section/services/artificial-intelligence-science-services-section/services/artificial-intelligence-research-notebook-services/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/science-services-section/services/engineering-science-services-section/services/computer-science-services-section/services/artificial-intelligence-science-services-section/services/artificial-intelligence-research-notebook-science-services-section/package-lock.json",
       "installResult": "added 94 packages, and audited 95 packages in 2m; 0 vulnerabilities",
       "testResult": "node --test: 7 pass, 0 fail"
     },
@@ -351,7 +351,7 @@
       "testResult": "node --test: 2 pass, 0 fail"
     },
     {
-      "path": "lib/emsenn/services/561-group/services/science-services-section/services/social-science-services-section/services/economics-and-business-science-services-section/services/business-science-services-section/services/business-research-services-section/services/business-research-notebook-services-section/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/science-services-section/services/social-science-services-section/services/economics-and-business-science-services-section/services/business-science-services-section/services/business-research-services-section/services/business-research-notebook-science-services-section/package-lock.json",
       "installResult": "added 94 packages, and audited 95 packages in 15s; 0 vulnerabilities",
       "testResult": "node --test: 3 pass, 0 fail"
     }
