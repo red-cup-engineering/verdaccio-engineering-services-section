@@ -15,7 +15,7 @@
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-engineering-services-section/services/npm-workspace-publication-service/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-packaging-engineering-services-section/services/npm-services-section/services/npm-registry-engineering-services-section/services/npm-workspace-publication-service/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
@@ -30,7 +30,7 @@
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-services-section/services/json-schema-services-section/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-services-section/services/json-schema-engineering-services-section/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
@@ -99,27 +99,27 @@
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-services-section/services/semantic-record-journal-service/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-engineering-services-section/services/semantic-record-journal-service/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-services-section/services/witness-journal-entry-service/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-engineering-services-section/services/witness-journal-entry-service/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-services-section/services/witness-journal-log-service/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-engineering-services-section/services/witness-journal-log-service/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-r2-engineering-services-section/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-engineering-services-section/services/cloudflare-r2-engineering-services-section/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
     {
-      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/gcloud-services-section/services/gcloud-cloud-build-image-fabrication-service/package-lock.json",
+      "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/gcloud-engineering-services-section/services/gcloud-cloud-build-image-fabrication-service/package-lock.json",
       "class": "local-dev",
       "indicators": []
     },
@@ -378,7 +378,7 @@
     "scope": "Task 1: applied the proven recipe (delete package-lock.json AND node_modules, npm install, verify all resolved URLs are http://127.0.0.1:4873 with zero pkg.dev, run npm test if defined) to the 22 previously-unattempted local-dev lockfiles plus the now-unblocked articulation-services-section (deferred-concurrent-work), 23 total. Task 2: re-verified the 1.0.13/1.0.14 byte-diff claim from source, ran the package's own tests, made a publish/no-publish call under mandatory rule, and re-attempted the three downstream services in dependency order. cloud-built class was not touched.",
     "task1FixedThisPass": [
       {
-        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-engineering-services-section/services/npm-workspace-publication-service/package-lock.json",
+        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-packaging-engineering-services-section/services/npm-services-section/services/npm-registry-engineering-services-section/services/npm-workspace-publication-service/package-lock.json",
         "installResult": "added 6 packages, and audited 7 packages in 1m; found 0 vulnerabilities",
         "resolvedUrlCheck": "6 resolved to http://127.0.0.1:4873, 0 resolved to pkg.dev (of 6 total)",
         "testResult": "node --test: 121 pass, 0 fail"
@@ -396,7 +396,7 @@
         "testResult": "node --test: 2 pass, 0 fail"
       },
       {
-        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-services-section/services/json-schema-services-section/package-lock.json",
+        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-services-section/services/computer-data-serialization-services-section/services/json-services-section/services/json-schema-engineering-services-section/package-lock.json",
         "installResult": "added 21 packages, and audited 22 packages in 1m; found 0 vulnerabilities",
         "resolvedUrlCheck": "21 resolved to http://127.0.0.1:4873, 0 resolved to pkg.dev (of 21 total)",
         "testResult": "node --test: 8 pass, 0 fail"
@@ -438,25 +438,25 @@
         "testResult": "node --test: 5 pass, 0 fail"
       },
       {
-        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-services-section/services/semantic-record-journal-service/package-lock.json",
+        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-engineering-services-section/services/semantic-record-journal-service/package-lock.json",
         "installResult": "added 16 packages, and audited 17 packages in 16s; found 0 vulnerabilities",
         "resolvedUrlCheck": "16 resolved to http://127.0.0.1:4873, 0 resolved to pkg.dev (of 16 total)",
         "testResult": "node --test: 2 pass, 0 fail"
       },
       {
-        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-services-section/services/witness-journal-entry-service/package-lock.json",
+        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-engineering-services-section/services/witness-journal-entry-service/package-lock.json",
         "installResult": "added 14 packages, and audited 15 packages in 5s; found 0 vulnerabilities",
         "resolvedUrlCheck": "14 resolved to http://127.0.0.1:4873, 0 resolved to pkg.dev (of 14 total)",
         "testResult": "node --test: 13 pass, 0 fail"
       },
       {
-        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-services-section/services/witness-journal-log-service/package-lock.json",
+        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/witness-journal-engineering-services-section/services/witness-journal-log-service/package-lock.json",
         "installResult": "added 15 packages, and audited 16 packages in 5s; found 0 vulnerabilities",
         "resolvedUrlCheck": "15 resolved to http://127.0.0.1:4873, 0 resolved to pkg.dev (of 15 total)",
         "testResult": "node --test: 11 pass, 0 fail"
       },
       {
-        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/gcloud-services-section/services/gcloud-cloud-build-image-fabrication-service/package-lock.json",
+        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/gcloud-engineering-services-section/services/gcloud-cloud-build-image-fabrication-service/package-lock.json",
         "installResult": "added 3 packages, and audited 4 packages in 23s; found 0 vulnerabilities",
         "resolvedUrlCheck": "3 resolved to http://127.0.0.1:4873, 0 resolved to pkg.dev (of 3 total)",
         "testResult": "node --test: 19 pass, 0 fail"
@@ -504,7 +504,7 @@
         "error": "npm error code ETARGET\nnpm error notarget No matching version found for @red-cup-engineering/a2a-agent-card-discovery-service@1.0.14.\nnpm error notarget In most cases you or one of your dependencies are requesting a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /home/emsenn/.npm/_logs/2026-08-30T16_41_20_812Z-debug-0.log"
       },
       {
-        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-r2-engineering-services-section/package-lock.json",
+        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-engineering-services-section/services/cloudflare-r2-engineering-services-section/package-lock.json",
         "error": "npm error code ETARGET\nnpm error notarget No matching version found for @red-cup-engineering/immutable-content-custody-service@3.0.0.\nnpm error notarget In most cases you or one of your dependencies are requesting a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /home/emsenn/.npm/_logs/2026-08-30T16_41_59_137Z-debug-0.log"
       }
     ],
@@ -574,7 +574,7 @@
         "error": "npm error code ETARGET / notarget: No matching version found for @red-cup-engineering/a2a-agent-card-discovery-service@1.0.14. Same missing-version cause as the original failed trio; discovered fresh in this pass."
       },
       {
-        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-r2-engineering-services-section/package-lock.json",
+        "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-engineering-services-section/services/cloudflare-r2-engineering-services-section/package-lock.json",
         "error": "npm error code ETARGET / notarget: No matching version found for @red-cup-engineering/immutable-content-custody-service@3.0.0. Verdaccio's metadata for that package tops out at 2.0.2 (dist-tags.latest=2.0.2) -- 3.0.0 was never published. Same failure class (phantom version pin) as the a2a-agent-card-discovery-service chain but a DIFFERENT package, and not in task 2's authorized publish scope. Not fixed; recorded only."
       }
     ],
@@ -689,7 +689,7 @@
       "publishAction": "NOT_PUBLISHED",
       "publishReason": "Consumer only uses exports that exist unchanged in the already-published 2.0.2; re-pinning is the smaller, correct intervention per task instruction. 3.0.0 was left unpublished (dist-tags.latest remains 2.0.2). This is recorded as a finding, not fixed: if a future consumer needs the CLI/subpath exports 3.0.0 removes, 3.0.0 would need its own tests run and a deliberate publish decision -- out of scope here since no current consumer needs it.",
       "repinAction": {
-        "file": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-r2-engineering-services-section/package.json",
+        "file": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-engineering-services-section/services/cloudflare-r2-engineering-services-section/package.json",
         "change": "dependencies['@red-cup-engineering/immutable-content-custody-service']: 3.0.0 -> 2.0.2"
       },
       "consumerLockfileRecipe": {
@@ -768,7 +768,7 @@
     ],
     "repinsExecutedThisPass": [
       {
-        "file": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-r2-engineering-services-section/package.json",
+        "file": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-engineering-services-section/services/cloudflare-r2-engineering-services-section/package.json",
         "change": "@red-cup-engineering/immutable-content-custody-service: 3.0.0 -> 2.0.2",
         "reason": "gate 3 verdict -- see gate3.repinAction"
       }
