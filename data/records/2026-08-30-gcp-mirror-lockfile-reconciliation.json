@@ -610,7 +610,7 @@
         "currentSourcePackageJsonVersion": "0.1.5",
         "note": "Same pattern as release-distribution-commission-a2a-service: pre-existing older publication, current source (0.1.5) unpublished."
       },
-      "@coesite-operations/release-notice-distribution-service": {
+      "@coesite-operations/enterprise-marketing-release-notice-distribution-services-section": {
         "publishedVersions": [],
         "distTagsLatest": null,
         "note": "Not published to the local registry at all (404)."
@@ -681,7 +681,7 @@
       "note": "scripts/put-immutable-content.mjs and scripts/get-immutable-content.mjs still exist unchanged in the source tree; they are simply no longer part of the package's publishable surface (dropped from files/exports/bin) as of 3.0.0.",
       "verdict": "REAL_BREAKING_CHANGE -- major version bump is justified: 3.0.0 removes two subpath exports and two CLI bins that 2.0.2 offered.",
       "consumerCheck": {
-        "consumer": "@red-cup-engineering/cloudflare-r2-services-section",
+        "consumer": "@red-cup-engineering/cloudflare-r2-engineering-services-section",
         "method": "grepped the consumer's src/ and test/ for every reference to @red-cup-engineering/immutable-content-custody-service",
         "actualUsage": "Only src/immutable-content-custody.mjs imports from the package, and only via the bare/main specifier: `import { createImmutableContentCustody, IMMUTABLE_CONTENT_REFERENCE_PROFILE } from \"@red-cup-engineering/immutable-content-custody-service\"`. No reference anywhere in the consumer to the removed './put-immutable-content' or './get-immutable-content' subpaths, and no invocation of the removed CLI bins.",
         "existsUnchangedIn2_0_2": "Yes -- both createImmutableContentCustody and IMMUTABLE_CONTENT_REFERENCE_PROFILE are exported from src/immutable-content-custody.mjs, which is byte-identical between 2.0.2 and 3.0.0."

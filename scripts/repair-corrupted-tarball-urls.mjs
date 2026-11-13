@@ -25,7 +25,7 @@
 import { readFile, readdir } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { argument, repeatedArgument } from "@red-cup-engineering/javascript-node-services-section/argv";
+import { argument, repeatedArgument } from "@red-cup-engineering/javascript-node-engineering-services-section/argv";
 import { writeFileText } from "@red-cup-engineering/computer-file-engineering-services-section/write-file";
 
 // Same corruption test as

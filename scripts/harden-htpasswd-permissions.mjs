@@ -7,7 +7,7 @@
 
 import { chmod, stat } from "node:fs/promises";
 import path from "node:path";
-import { runJavascriptNodeOperation } from "@red-cup-engineering/javascript-node-services-section/operation";
+import { runJavascriptNodeOperation } from "@red-cup-engineering/javascript-node-engineering-services-section/operation";
 
 const PRIVATE_FILE_MODE = 0o600;
 
