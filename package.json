@@ -1,0 +1,41 @@
+{
+  "name": "@red-cup-engineering/verdaccio-engineering-services-section",
+  "version": "0.2.3-dev.0",
+  "type": "module",
+  "description": "Runs the ordinary private npm registry for 561 Group packages using Verdaccio.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/verdaccio-engineering-services-section.git"
+  },
+  "keywords": [
+    "verdaccio",
+    "npm-registry",
+    "private-registry",
+    "package-management"
+  ],
+  "scripts": {
+    "configure-client": "node scripts/configure-npm-scope-routing.mjs",
+    "check-client": "node scripts/configure-npm-scope-routing.mjs --check",
+    "serve": "npm run configure-client && node scripts/harden-htpasswd-permissions.mjs && verdaccio --config content/config/config.yaml",
+    "configure-client:cold-red-gate": "node scripts/configure-npm-scope-routing.mjs --config content/config/cold-red-gate.yaml",
+    "check-client:cold-red-gate": "node scripts/configure-npm-scope-routing.mjs --check --config content/config/cold-red-gate.yaml",
+    "serve:cold-red-gate": "npm run configure-client:cold-red-gate && node scripts/harden-htpasswd-permissions.mjs && verdaccio --config content/config/cold-red-gate.yaml",
+    "ping": "node scripts/ping-verdaccio.mjs",
+    "check": "node --check scripts/configure-npm-scope-routing.mjs && node --check scripts/ping-verdaccio.mjs && node --check scripts/harden-htpasswd-permissions.mjs && node --check src/npmrc-source-projection.mjs && node --check scripts/check-repository-npmrc.mjs",
+    "assay:repository-routing": "node scripts/check-repository-npmrc.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/computer-file-engineering-services-section": "^0.8.8",
+    "@red-cup-engineering/node-js-function-engineering-services-section": "^0.5.4",
+    "@red-cup-engineering/parse-javascript-argv-service": "^0.3.0",
+    "verdaccio": "6.9.2"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
